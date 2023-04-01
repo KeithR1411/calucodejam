@@ -36,6 +36,7 @@
             this.btnAddAccount = new System.Windows.Forms.Button();
             this.btnEditAccount = new System.Windows.Forms.Button();
             this.btnDeleteAccount = new System.Windows.Forms.Button();
+            this.Accounts = new System.Windows.Forms.ListBox();
             this.SuspendLayout();
             // 
             // textBox1
@@ -63,24 +64,24 @@
             // lblTitle
             // 
             this.lblTitle.AutoSize = true;
-            this.lblTitle.BackColor = System.Drawing.Color.Transparent;
-            this.lblTitle.Font = new System.Drawing.Font("Berlin Sans FB", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.lblTitle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
+            this.lblTitle.Font = new System.Drawing.Font("Berlin Sans FB", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.lblTitle.ForeColor = System.Drawing.Color.AliceBlue;
             this.lblTitle.Location = new System.Drawing.Point(0, 0);
             this.lblTitle.Name = "lblTitle";
-            this.lblTitle.Size = new System.Drawing.Size(66, 17);
+            this.lblTitle.Size = new System.Drawing.Size(56, 13);
             this.lblTitle.TabIndex = 6;
             this.lblTitle.Text = "PassVault";
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.BackColor = System.Drawing.Color.Transparent;
-            this.label1.Font = new System.Drawing.Font("Berlin Sans FB", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
+            this.label1.Font = new System.Drawing.Font("Berlin Sans FB", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.label1.ForeColor = System.Drawing.Color.AliceBlue;
-            this.label1.Location = new System.Drawing.Point(0, 16);
+            this.label1.Location = new System.Drawing.Point(0, 17);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(126, 18);
+            this.label1.Size = new System.Drawing.Size(112, 16);
             this.label1.TabIndex = 7;
             this.label1.Text = "Management Tool";
             // 
@@ -135,12 +136,23 @@
             this.btnDeleteAccount.UseVisualStyleBackColor = false;
             this.btnDeleteAccount.Click += new System.EventHandler(this.btnDeleteAccount_Click);
             // 
+            // Accounts
+            // 
+            this.Accounts.FormattingEnabled = true;
+            this.Accounts.ItemHeight = 15;
+            this.Accounts.Location = new System.Drawing.Point(295, 76);
+            this.Accounts.Name = "Accounts";
+            this.Accounts.Size = new System.Drawing.Size(120, 94);
+            this.Accounts.TabIndex = 11;
+            this.Accounts.SelectedIndexChanged += new System.EventHandler(this.Accounts_SelectedIndexChanged);
+            // 
             // Management
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(23)))), ((int)(((byte)(23)))), ((int)(((byte)(23)))));
             this.ClientSize = new System.Drawing.Size(957, 450);
+            this.Controls.Add(this.Accounts);
             this.Controls.Add(this.btnDeleteAccount);
             this.Controls.Add(this.btnEditAccount);
             this.Controls.Add(this.btnAddAccount);
@@ -165,5 +177,6 @@
         private Button btnAddAccount;
         private Button btnEditAccount;
         private Button btnDeleteAccount;
+        private ListBox Accounts;
     }
 }

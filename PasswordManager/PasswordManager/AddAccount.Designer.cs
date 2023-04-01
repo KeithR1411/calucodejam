@@ -30,20 +30,21 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(AddAccount));
             this.textBox1 = new System.Windows.Forms.TextBox();
-            this.label6 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label1 = new System.Windows.Forms.Label();
+            this.lblEInfo = new System.Windows.Forms.Label();
+            this.lblEmail = new System.Windows.Forms.Label();
+            this.lblUsername = new System.Windows.Forms.Label();
+            this.lblPass = new System.Windows.Forms.Label();
+            this.lblSInfo = new System.Windows.Forms.Label();
+            this.lblName = new System.Windows.Forms.Label();
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.lblTitle = new System.Windows.Forms.Label();
             this.txtName = new System.Windows.Forms.TextBox();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.textBox5 = new System.Windows.Forms.TextBox();
-            this.textBox6 = new System.Windows.Forms.TextBox();
-            this.textBox7 = new System.Windows.Forms.TextBox();
-            this.textBox8 = new System.Windows.Forms.TextBox();
+            this.txtEmail = new System.Windows.Forms.TextBox();
+            this.txtUsername = new System.Windows.Forms.TextBox();
+            this.txtPass = new System.Windows.Forms.TextBox();
+            this.txtSecurityInfo = new System.Windows.Forms.TextBox();
+            this.txtExtraInfo = new System.Windows.Forms.TextBox();
+            this.btnSubmit = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // textBox1
@@ -58,77 +59,77 @@
             this.textBox1.Size = new System.Drawing.Size(167, 450);
             this.textBox1.TabIndex = 14;
             // 
-            // label6
+            // lblEInfo
             // 
-            this.label6.AutoSize = true;
-            this.label6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
-            this.label6.Font = new System.Drawing.Font("Berlin Sans FB", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label6.ForeColor = System.Drawing.Color.AliceBlue;
-            this.label6.Location = new System.Drawing.Point(12, 350);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(151, 21);
-            this.label6.TabIndex = 20;
-            this.label6.Text = "Extra Information";
+            this.lblEInfo.AutoSize = true;
+            this.lblEInfo.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
+            this.lblEInfo.Font = new System.Drawing.Font("Berlin Sans FB", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.lblEInfo.ForeColor = System.Drawing.Color.AliceBlue;
+            this.lblEInfo.Location = new System.Drawing.Point(12, 350);
+            this.lblEInfo.Name = "lblEInfo";
+            this.lblEInfo.Size = new System.Drawing.Size(151, 21);
+            this.lblEInfo.TabIndex = 20;
+            this.lblEInfo.Text = "Extra Information";
             // 
-            // label5
+            // lblEmail
             // 
-            this.label5.AutoSize = true;
-            this.label5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
-            this.label5.Font = new System.Drawing.Font("Berlin Sans FB", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label5.ForeColor = System.Drawing.Color.AliceBlue;
-            this.label5.Location = new System.Drawing.Point(12, 87);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(55, 21);
-            this.label5.TabIndex = 19;
-            this.label5.Text = "Email";
+            this.lblEmail.AutoSize = true;
+            this.lblEmail.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
+            this.lblEmail.Font = new System.Drawing.Font("Berlin Sans FB", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.lblEmail.ForeColor = System.Drawing.Color.AliceBlue;
+            this.lblEmail.Location = new System.Drawing.Point(12, 87);
+            this.lblEmail.Name = "lblEmail";
+            this.lblEmail.Size = new System.Drawing.Size(55, 21);
+            this.lblEmail.TabIndex = 19;
+            this.lblEmail.Text = "Email";
             // 
-            // label4
+            // lblUsername
             // 
-            this.label4.AutoSize = true;
-            this.label4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
-            this.label4.Font = new System.Drawing.Font("Berlin Sans FB", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label4.ForeColor = System.Drawing.Color.AliceBlue;
-            this.label4.Location = new System.Drawing.Point(12, 132);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(90, 21);
-            this.label4.TabIndex = 18;
-            this.label4.Text = "Username";
+            this.lblUsername.AutoSize = true;
+            this.lblUsername.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
+            this.lblUsername.Font = new System.Drawing.Font("Berlin Sans FB", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.lblUsername.ForeColor = System.Drawing.Color.AliceBlue;
+            this.lblUsername.Location = new System.Drawing.Point(12, 132);
+            this.lblUsername.Name = "lblUsername";
+            this.lblUsername.Size = new System.Drawing.Size(90, 21);
+            this.lblUsername.TabIndex = 18;
+            this.lblUsername.Text = "Username";
             // 
-            // label3
+            // lblPass
             // 
-            this.label3.AutoSize = true;
-            this.label3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
-            this.label3.Font = new System.Drawing.Font("Berlin Sans FB", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label3.ForeColor = System.Drawing.Color.AliceBlue;
-            this.label3.Location = new System.Drawing.Point(12, 173);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(86, 21);
-            this.label3.TabIndex = 17;
-            this.label3.Text = "Password";
+            this.lblPass.AutoSize = true;
+            this.lblPass.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
+            this.lblPass.Font = new System.Drawing.Font("Berlin Sans FB", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.lblPass.ForeColor = System.Drawing.Color.AliceBlue;
+            this.lblPass.Location = new System.Drawing.Point(12, 173);
+            this.lblPass.Name = "lblPass";
+            this.lblPass.Size = new System.Drawing.Size(86, 21);
+            this.lblPass.TabIndex = 17;
+            this.lblPass.Text = "Password";
             // 
-            // label2
+            // lblSInfo
             // 
-            this.label2.AutoSize = true;
-            this.label2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
-            this.label2.Font = new System.Drawing.Font("Berlin Sans FB", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label2.ForeColor = System.Drawing.Color.AliceBlue;
-            this.label2.Location = new System.Drawing.Point(12, 216);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(107, 21);
-            this.label2.TabIndex = 16;
-            this.label2.Text = "Security Info";
+            this.lblSInfo.AutoSize = true;
+            this.lblSInfo.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
+            this.lblSInfo.Font = new System.Drawing.Font("Berlin Sans FB", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.lblSInfo.ForeColor = System.Drawing.Color.AliceBlue;
+            this.lblSInfo.Location = new System.Drawing.Point(12, 216);
+            this.lblSInfo.Name = "lblSInfo";
+            this.lblSInfo.Size = new System.Drawing.Size(107, 21);
+            this.lblSInfo.TabIndex = 16;
+            this.lblSInfo.Text = "Security Info";
             // 
-            // label1
+            // lblName
             // 
-            this.label1.AutoSize = true;
-            this.label1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
-            this.label1.Font = new System.Drawing.Font("Berlin Sans FB", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label1.ForeColor = System.Drawing.Color.AliceBlue;
-            this.label1.Location = new System.Drawing.Point(12, 46);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(131, 21);
-            this.label1.TabIndex = 15;
-            this.label1.Text = "Account Name";
+            this.lblName.AutoSize = true;
+            this.lblName.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
+            this.lblName.Font = new System.Drawing.Font("Berlin Sans FB", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.lblName.ForeColor = System.Drawing.Color.AliceBlue;
+            this.lblName.Location = new System.Drawing.Point(12, 46);
+            this.lblName.Name = "lblName";
+            this.lblName.Size = new System.Drawing.Size(131, 21);
+            this.lblName.TabIndex = 15;
+            this.lblName.Text = "Account Name";
             // 
             // textBox2
             // 
@@ -163,41 +164,73 @@
             this.txtName.Size = new System.Drawing.Size(456, 23);
             this.txtName.TabIndex = 23;
             // 
-            // textBox4
+            // txtEmail
             // 
-            this.textBox4.Location = new System.Drawing.Point(162, 85);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(456, 23);
-            this.textBox4.TabIndex = 24;
+            this.txtEmail.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(34)))), ((int)(((byte)(34)))));
+            this.txtEmail.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txtEmail.ForeColor = System.Drawing.SystemColors.Window;
+            this.txtEmail.Location = new System.Drawing.Point(162, 85);
+            this.txtEmail.Name = "txtEmail";
+            this.txtEmail.Size = new System.Drawing.Size(456, 23);
+            this.txtEmail.TabIndex = 24;
             // 
-            // textBox5
+            // txtUsername
             // 
-            this.textBox5.Location = new System.Drawing.Point(162, 130);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(456, 23);
-            this.textBox5.TabIndex = 25;
+            this.txtUsername.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(34)))), ((int)(((byte)(34)))));
+            this.txtUsername.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txtUsername.ForeColor = System.Drawing.SystemColors.Window;
+            this.txtUsername.Location = new System.Drawing.Point(162, 130);
+            this.txtUsername.Name = "txtUsername";
+            this.txtUsername.Size = new System.Drawing.Size(456, 23);
+            this.txtUsername.TabIndex = 25;
             // 
-            // textBox6
+            // txtPass
             // 
-            this.textBox6.Location = new System.Drawing.Point(162, 171);
-            this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(456, 23);
-            this.textBox6.TabIndex = 26;
+            this.txtPass.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(34)))), ((int)(((byte)(34)))));
+            this.txtPass.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txtPass.ForeColor = System.Drawing.SystemColors.Window;
+            this.txtPass.Location = new System.Drawing.Point(162, 171);
+            this.txtPass.Name = "txtPass";
+            this.txtPass.Size = new System.Drawing.Size(456, 23);
+            this.txtPass.TabIndex = 26;
             // 
-            // textBox7
+            // txtSecurityInfo
             // 
-            this.textBox7.Location = new System.Drawing.Point(162, 218);
-            this.textBox7.Name = "textBox7";
-            this.textBox7.Size = new System.Drawing.Size(456, 23);
-            this.textBox7.TabIndex = 27;
+            this.txtSecurityInfo.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(34)))), ((int)(((byte)(34)))));
+            this.txtSecurityInfo.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txtSecurityInfo.ForeColor = System.Drawing.SystemColors.Window;
+            this.txtSecurityInfo.Location = new System.Drawing.Point(162, 218);
+            this.txtSecurityInfo.Name = "txtSecurityInfo";
+            this.txtSecurityInfo.Size = new System.Drawing.Size(456, 23);
+            this.txtSecurityInfo.TabIndex = 27;
             // 
-            // textBox8
+            // txtExtraInfo
             // 
-            this.textBox8.Location = new System.Drawing.Point(162, 350);
-            this.textBox8.Multiline = true;
-            this.textBox8.Name = "textBox8";
-            this.textBox8.Size = new System.Drawing.Size(456, 97);
-            this.textBox8.TabIndex = 28;
+            this.txtExtraInfo.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(34)))), ((int)(((byte)(34)))));
+            this.txtExtraInfo.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txtExtraInfo.ForeColor = System.Drawing.SystemColors.Window;
+            this.txtExtraInfo.Location = new System.Drawing.Point(162, 350);
+            this.txtExtraInfo.Multiline = true;
+            this.txtExtraInfo.Name = "txtExtraInfo";
+            this.txtExtraInfo.Size = new System.Drawing.Size(456, 97);
+            this.txtExtraInfo.TabIndex = 28;
+            // 
+            // btnSubmit
+            // 
+            this.btnSubmit.BackColor = System.Drawing.Color.OliveDrab;
+            this.btnSubmit.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.btnSubmit.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnSubmit.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
+            this.btnSubmit.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnSubmit.Font = new System.Drawing.Font("Candara", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.btnSubmit.ForeColor = System.Drawing.Color.White;
+            this.btnSubmit.Location = new System.Drawing.Point(624, 386);
+            this.btnSubmit.Name = "btnSubmit";
+            this.btnSubmit.Size = new System.Drawing.Size(167, 52);
+            this.btnSubmit.TabIndex = 29;
+            this.btnSubmit.Text = "Submit";
+            this.btnSubmit.UseVisualStyleBackColor = false;
+            this.btnSubmit.Click += new System.EventHandler(this.btnSubmit_Click);
             // 
             // AddAccount
             // 
@@ -205,20 +238,21 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(23)))), ((int)(((byte)(23)))), ((int)(((byte)(23)))));
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.textBox8);
-            this.Controls.Add(this.textBox7);
-            this.Controls.Add(this.textBox6);
-            this.Controls.Add(this.textBox5);
-            this.Controls.Add(this.textBox4);
+            this.Controls.Add(this.btnSubmit);
+            this.Controls.Add(this.txtExtraInfo);
+            this.Controls.Add(this.txtSecurityInfo);
+            this.Controls.Add(this.txtPass);
+            this.Controls.Add(this.txtUsername);
+            this.Controls.Add(this.txtEmail);
             this.Controls.Add(this.txtName);
             this.Controls.Add(this.lblTitle);
             this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.label6);
-            this.Controls.Add(this.label5);
-            this.Controls.Add(this.label4);
-            this.Controls.Add(this.label3);
-            this.Controls.Add(this.label2);
-            this.Controls.Add(this.label1);
+            this.Controls.Add(this.lblEInfo);
+            this.Controls.Add(this.lblEmail);
+            this.Controls.Add(this.lblUsername);
+            this.Controls.Add(this.lblPass);
+            this.Controls.Add(this.lblSInfo);
+            this.Controls.Add(this.lblName);
             this.Controls.Add(this.textBox1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "AddAccount";
@@ -230,19 +264,20 @@
 
         #endregion
         private TextBox textBox1;
-        private Label label6;
-        private Label label5;
-        private Label label4;
-        private Label label3;
-        private Label label2;
-        private Label label1;
+        private Label lblEInfo;
+        private Label lblEmail;
+        private Label lblUsername;
+        private Label lblPass;
+        private Label lblSInfo;
+        private Label lblName;
         private TextBox textBox2;
         private Label lblTitle;
         private TextBox txtName;
-        private TextBox textBox4;
-        private TextBox textBox5;
-        private TextBox textBox6;
-        private TextBox textBox7;
-        private TextBox textBox8;
+        private TextBox txtEmail;
+        private TextBox txtUsername;
+        private TextBox txtPass;
+        private TextBox txtSecurityInfo;
+        private TextBox txtExtraInfo;
+        private Button btnSubmit;
     }
 }
