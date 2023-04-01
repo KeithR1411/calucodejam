@@ -39,5 +39,15 @@ namespace PasswordManager
         {
 
         }
+
+        private void Accounts_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        public void UpdateTextBox_OnForm1(string data)
+        {
+            Accounts.Items.Add(data);
+        }
     }
 }
