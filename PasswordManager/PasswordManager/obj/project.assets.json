@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\15707\\source\\repos\\PasswordManager\\PasswordManager\\PasswordManager.csproj",
+      "projectUniqueName": "C:\\Users\\15707\\Desktop\\edgeofextinction\\edgeofextinction\\Edge_Of_Extinction_Working\\calucodejam\\PasswordManager\\PasswordManager\\PasswordManager.csproj",
       "projectName": "PasswordManager",
-      "projectPath": "C:\\Users\\15707\\source\\repos\\PasswordManager\\PasswordManager\\PasswordManager.csproj",
+      "projectPath": "C:\\Users\\15707\\Desktop\\edgeofextinction\\edgeofextinction\\Edge_Of_Extinction_Working\\calucodejam\\PasswordManager\\PasswordManager\\PasswordManager.csproj",
       "packagesPath": "C:\\Users\\15707\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\15707\\source\\repos\\PasswordManager\\PasswordManager\\obj\\",
+      "outputPath": "C:\\Users\\15707\\Desktop\\edgeofextinction\\edgeofextinction\\Edge_Of_Extinction_Working\\calucodejam\\PasswordManager\\PasswordManager\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\15707\\AppData\\Roaming\\NuGet\\NuGet.Config",
